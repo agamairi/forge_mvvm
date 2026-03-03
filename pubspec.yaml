@@ -1,0 +1,41 @@
+name: forge_mvvm
+description: >
+  A Flutter framework that enforces MVVM architecture and Clean Code principles.
+  Includes base classes, DI via get_it, navigation helpers, pagination/forms,
+  and a CLI scaffolding tool.
+version: 0.2.0
+homepage: https://github.com/agamairi/forge_mvvm
+repository: https://github.com/agamairi/forge_mvvm
+issue_tracker: https://github.com/agamairi/forge_mvvm/issues
+documentation: https://github.com/agamairi/forge_mvvm#readme
+
+topics:
+  - mvvm
+  - architecture
+  - clean-architecture
+  - state-management
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  args: ^2.5.0
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  get_it: ^7.7.0
+  go_router: ^14.1.0
+  meta: ^1.11.0
+  provider: ^6.1.2
+
+dev_dependencies:
+  build: ^2.4.1
+  build_runner: ^2.4.9
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.4.4
+
+flutter:
+  # No assets or fonts.

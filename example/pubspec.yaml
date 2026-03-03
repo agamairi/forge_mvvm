@@ -1,0 +1,19 @@
+name: forge_mvvm_example
+description: Demonstrates a full Login feature built with forge_mvvm.
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  forge_mvvm:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

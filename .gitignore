@@ -1,0 +1,27 @@
+# Dart/Flutter
+.dart_tool/
+.packages
+build/
+pubspec.lock
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+.test_coverage/
+
+# Generated
+*.g.dart
+*.freezed.dart
+
+# Example app lock file
+example/pubspec.lock
