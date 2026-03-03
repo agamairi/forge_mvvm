@@ -63,7 +63,7 @@ Most Flutter architecture packages give you tools. `forge_mvvm` gives you **guar
 │                    UI LAYER                      │
 │  ForgeView  ◄──►  ForgeViewModel                 │
 │                   ForgeCommand                   │
-│                   ForgePaginatedViewModel         │
+│                   ForgePaginatedViewModel        │
 │                   ForgeFormViewModel             │
 ├──────────────────────────────────────────────────┤
 │                  DOMAIN LAYER                    │
